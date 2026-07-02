@@ -3,7 +3,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class FairLockExample {
 
-     private final Lock Lock = new ReentrantLock(true); // we need to make fairness true 
+     private final Lock Lock = new ReentrantLock(true ); // we need to make fairness true 
 
     public void accessResource( ){
         Lock.lock();
